@@ -1,10 +1,11 @@
 const Nav = () => {
     return (
-        <ul>
-            <li>Home</li>
-            <button className="btn btn-secondary">Click me</button>
+        <nav style={{color:'#190019', backgroundColor:'#fbe4d8'}}>
+           
+            
+        </nav>
 
-        </ul>
+        
 
       );
 }
