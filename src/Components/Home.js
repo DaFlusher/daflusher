@@ -1,6 +1,8 @@
+import Hero from "./Hero";
+
 const Home = () => {
     return ( 
-        <li></li>
+        <div></div>
      );
 }
  

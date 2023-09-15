@@ -1,12 +1,28 @@
+import {Link } from 'react-router-dom';
+
 const Nav = () => {
     return (
-        <nav style={{color:'#190019', backgroundColor:'#fbe4d8'}}>
-           
+        <>
+               <nav>
+                  <ul className='navbar'>
+                        <div id="navbar-brand">
+                            <Link to='/'id='logo'>Daflusher</Link>
+                        </div>
+
+                        <div className="links">
+                            <Link to='/ux-design' className='link'>UX Design</Link>
+                            <Link to='/front-end' className='link'>Frontend</Link>
+                            <Link to='/about-me' className='link'>About me</Link>
+                            <Link to='/contact-me' className='link'>Contact me</Link>
+                        </div>
+                        
+                    </ul>
+               </nav>
+
             
-        </nav>
 
-        
-
+        </>
+     
       );
 }
  
