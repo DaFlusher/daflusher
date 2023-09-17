@@ -1,8 +1,14 @@
 import Hero from "./Hero";
+import Footer from "./Footer";
+import Nav from "./Nav";
 
 const Home = () => {
     return ( 
-        <div></div>
+        <div>
+            <Nav/>
+            <Hero/>
+            <Footer/>
+        </div>
      );
 }
  

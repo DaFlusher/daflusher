@@ -10,6 +10,7 @@ const Nav = () => {
                         </div>
 
                         <div className="links">
+                            <Link to='/' className='link' style={{display:'none'}}></Link>
                             <Link to='/ux-design' className='link'>UX Design</Link>
                             <Link to='/front-end' className='link'>Frontend</Link>
                             <Link to='/about-me' className='link'>About me</Link>

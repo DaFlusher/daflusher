@@ -1,6 +1,11 @@
 const Footer = () => {
     return ( 
-        <li></li>
+        <div style={{textAlign:'center', marginTop:'2rem',}}>
+            Copyright Daflusher 2023
+
+        </div>
+
+
      );
 }
  

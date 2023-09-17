@@ -6,6 +6,7 @@ import Hero from './Components/Hero';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Frontend from './Components/Frontend';
+import Footer from './Components/Footer';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -24,9 +25,8 @@ function App() {
                 <Route path='/contact-me' element={<Contact/>}/>  
             </Routes>
           
-
-          <Nav/>
-          <Hero/>
+            
+          
         </div>
       
     </div>

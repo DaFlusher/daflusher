@@ -4,7 +4,7 @@ body{
     padding: 0;
     background-color:#fbe4d8 ;
     font-family: 'Quicksand', sans-serif;
-    height: 150vh;
+    height: 100vh;
 }
 .container{
     display: grid;
@@ -52,7 +52,7 @@ body{
     margin-top: 0.5rem;
     background-color: #190019;
     height: 40vh;
-    padding: 5%;
+    padding: 5% ;
     vertical-align: middle;
 }
 
