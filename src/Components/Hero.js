@@ -9,7 +9,7 @@ const Hero = () => {
             </div>
 
             <div className="image">
-                <img src={require('./daflusher.jpg')} width={100}  alt="Joy Ibe" />
+                <img src={require('./daflusher.jpg')} width={100}  alt="Joy Ibe" className='hero-image' />
             </div>
        
        </section>

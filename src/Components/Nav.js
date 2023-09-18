@@ -3,7 +3,7 @@ import {Link } from 'react-router-dom';
 const Nav = () => {
     return (
         <>
-               <nav>
+               <nav style={{marginBottom:'2rem'}}>
                   <ul className='navbar'>
                         <div id="navbar-brand">
                             <Link to='/'id='logo'>Daflusher</Link>
