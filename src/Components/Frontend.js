@@ -1,6 +1,7 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 
+/* Creating an array ofobjects for projects*/
 
 const projects =[
     {name: 'Little Lemon',
