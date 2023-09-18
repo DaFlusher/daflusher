@@ -1,15 +1,15 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-const Contact = () => {
+const Resume = () => {
     return ( 
         <div>
             <Nav/>
 
-                <h1>Contact me</h1>
+                <h1>My Resume</h1>
             <Footer/>
         </div>
      );
 }
  
-export default Contact;
+export default Resume;
